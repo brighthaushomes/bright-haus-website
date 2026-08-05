@@ -7,14 +7,22 @@
   <meta name="description" content="Bright Haus LLC provides cleaning, smoking and odor remediation, maintenance, construction, repairs, turnover services, and property care for rental properties, homes, and commercial properties across the USA.">
   <meta name="theme-color" content="#173b5e">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="bright-haus-logo.webp" as="image">
   <link rel="stylesheet" href="styles.css">
   <script defer src="logo.js"></script>
+  <style>
+    .brand-logo{width:54px;height:auto;object-fit:contain}
+    .hero-art{display:flex;align-items:center;justify-content:center;padding:52px 54px 132px}
+    .hero-logo{width:min(58%,260px);height:auto;max-height:260px;object-fit:contain;image-rendering:auto}
+    @media(max-width:980px){.hero-logo{width:min(48%,240px);max-height:240px}}
+    @media(max-width:680px){.brand-logo{width:46px}.hero-art{padding:38px 28px 112px}.hero-logo{width:min(58%,210px);max-height:210px}}
+  </style>
 </head>
 <body>
 <header class="site-header">
   <div class="container nav">
     <a class="brand" href="#top" aria-label="Bright Haus LLC home">
-      <span class="brand-logo" aria-hidden="true"></span>
+      <img class="brand-logo" src="bright-haus-logo.webp" alt="" width="72" height="65">
       <span class="brand-name">Bright Haus LLC</span>
     </a>
     <nav class="nav-links" aria-label="Primary navigation"><a href="#services">Services</a><a href="#why-us">Why us</a><a class="button" href="#contact">Request service</a></nav>
@@ -31,7 +39,7 @@
         <div class="trust-strip"><div><strong>10+ years</strong><span>of rental property experience</span></div><div><strong>Nationwide</strong><span>service coordination</span></div><div><strong>One partner</strong><span>from turnover to renovation</span></div></div>
       </div>
       <div class="hero-art" aria-label="Bright Haus LLC brand mark">
-        <div class="hero-logo" role="img" aria-label="Bright Haus LLC logo"></div>
+        <img class="hero-logo" src="bright-haus-logo.webp" alt="Bright Haus LLC" width="672" height="609">
         <div class="visual-label"><strong>Clean. Functional. Property-ready.</strong><span>Reliable property care from turnover to renovation.</span></div>
       </div>
     </div>
