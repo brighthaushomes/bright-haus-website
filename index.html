@@ -10,20 +10,19 @@
   <link rel="stylesheet" href="styles.css">
   <script defer src="logo.js"></script>
   <style>
-    .brand-logo{width:54px;height:49px;display:block;flex:0 0 54px;background:center/contain no-repeat}
-    .brand-logo img,.hero-logo img{display:block;width:100%;height:100%;object-fit:contain}
-    .hero-art{display:flex;align-items:center;justify-content:center;padding:62px 54px 132px}
-    .hero-logo{width:190px;height:172px;display:block;background:center/contain no-repeat}
-    @media(max-width:980px){.hero-logo{width:180px;height:163px}}
-    @media(max-width:680px){.brand-logo{width:46px;height:42px;flex-basis:46px}.hero-art{padding:44px 28px 112px}.hero-logo{width:165px;height:150px}}
+    .brand{gap:0}
+    .brand-logo{width:176px;height:58px;display:block;flex:0 0 176px;background:center/contain no-repeat}
+    .hero-art{display:flex;align-items:center;justify-content:center;padding:44px 54px 132px}
+    .hero-logo{width:min(82%,390px);height:355px;display:block;background:center/contain no-repeat;filter:drop-shadow(0 16px 28px rgba(13,38,61,.12))}
+    @media(max-width:980px){.hero-logo{width:min(70%,350px);height:320px}}
+    @media(max-width:680px){.brand-logo{width:145px;height:50px;flex-basis:145px}.hero-art{padding:34px 28px 112px}.hero-logo{width:min(78%,300px);height:275px}}
   </style>
 </head>
 <body>
 <header class="site-header">
   <div class="container nav">
     <a class="brand" href="#top" aria-label="Bright Haus LLC home">
-      <span class="brand-logo" aria-hidden="true"></span>
-      <span class="brand-name">Bright Haus LLC</span>
+      <span class="brand-logo" role="img" aria-label="Bright Haus Cleaning and Maintenance logo"></span>
     </a>
     <nav class="nav-links" aria-label="Primary navigation"><a href="#services">Services</a><a href="#why-us">Why us</a><a class="button" href="#contact">Request service</a></nav>
   </div>
@@ -35,11 +34,11 @@
         <div class="eyebrow"><span></span>Cleaning • Maintenance • Construction</div>
         <h1>Property care, handled beautifully.</h1>
         <p>Bright Haus LLC is your dependable partner for professional cleaning, ongoing maintenance, construction, and repairs—serving rental properties, residential homes, and commercial properties across the USA.</p>
-        <div class="hero-actions"><a class="button" href="tel:+18175524701">Call (817) 552-4701</a><a class="button secondary" href="mailto:brighthaushomes@gmail.com?subject=Service%20Request%20for%20Bright%20Haus%20LLC">Email us</a></div>
+        <div class="hero-actions"><a class="button" href="tel:+18175524701">Call (817) 552-4701</a><a class="button secondary" href="sms:+18175524701">Text us</a><a class="button secondary" href="mailto:brighthaushomes@gmail.com?subject=Service%20Request%20for%20Bright%20Haus%20LLC">Email us</a></div>
         <div class="trust-strip"><div><strong>10+ years</strong><span>of rental property experience</span></div><div><strong>Nationwide</strong><span>service coordination</span></div><div><strong>One partner</strong><span>from turnover to renovation</span></div></div>
       </div>
       <div class="hero-art" aria-label="Bright Haus LLC brand mark">
-        <div class="hero-logo" role="img" aria-label="Bright Haus LLC logo"></div>
+        <div class="hero-logo" role="img" aria-label="Bright Haus Cleaning and Maintenance logo"></div>
         <div class="visual-label"><strong>Clean. Functional. Property-ready.</strong><span>Reliable property care from turnover to renovation.</span></div>
       </div>
     </div>
@@ -51,7 +50,7 @@
       <div class="service-grid">
         <article class="card"><div class="icon">✦</div><h3>Turnover & Routine Cleaning</h3><p>Rental property turnovers, recurring residential cleaning, commercial cleaning, same-day service, deep cleans, and move-in or move-out cleaning.</p></article>
         <article class="card"><div class="icon">≈</div><h3>Smoking & Odor Remediation</h3><p>Targeted smoke and odor removal with ventilation, hard-surface cleaning, fabric and upholstery deodorizing, linen treatment, and specialized remediation.</p></article>
-        <article class="card"><div class="icon">✓</div><h3>Rental Property Operations</h3><p>Turnovers, inspections, restocking, linen and laundry service, damage documentation, quality control, and guest-ready property checks.</p></article>
+        <article class="card"><div class="icon">✓</div><h3>Rental Property Operations</h3><p>Turnovers, inspections, restocking, linen and laundry service, damage documentation, quality control, and property-ready checks.</p></article>
         <article class="card"><div class="icon">◆</div><h3>Maintenance & Handyman</h3><p>Preventive maintenance, emergency response, furniture assembly, fixture replacement, troubleshooting, punch-list work, and general repairs.</p></article>
         <article class="card"><div class="icon">⌂</div><h3>Residential Construction & Repairs</h3><p>Interior and exterior repairs, remodeling support, flooring, painting, drywall, carpentry, doors, trim, kitchens, bathrooms, and broader residential projects.</p></article>
         <article class="card"><div class="icon">▦</div><h3>Commercial Property Care</h3><p>Cleaning, repairs, routine upkeep, inspections, refresh projects, and service coordination for offices, retail spaces, and commercial properties.</p></article>
@@ -68,7 +67,7 @@
   </section>
 
   <section class="audiences">
-    <div class="container"><div class="section-heading"><div class="kicker">Who we serve</div><h2>Property support for every type of space.</h2><p>Bright Haus works with individual owners, operators, investors, and businesses that need a responsive, capable service partner.</p></div>
+    <div class="container"><div class="section-heading"><div class="kicker">Who we serve</div><h2>Property support for every type of space.</h2><p>Bright Haus works with individual owners, operators, investors, homeowners, and businesses that need a responsive, capable service partner.</p></div>
       <div class="audience-grid"><article><span>01</span><h3>Rental Properties</h3><p>Turnovers, inspections, maintenance, repairs, restocking, and quality control backed by a decade of rental property experience.</p></article><article><span>02</span><h3>Residential Homes</h3><p>Recurring cleaning, deep cleans, household repairs, remodeling, construction support, and ongoing property upkeep.</p></article><article><span>03</span><h3>Commercial Properties</h3><p>Cleaning, maintenance, repair coordination, inspections, refresh projects, and dependable operational support.</p></article></div>
     </div>
   </section>
