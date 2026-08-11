@@ -42,3 +42,4 @@ REPLACE THE PLACEHOLDER IMAGE
 
 BUSINESS NOTE
 Before advertising regulated construction work in a specific jurisdiction, confirm any required licensing, registration, insurance, permitting, or contractor disclosures.
+
